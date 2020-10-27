@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carreras Universitarias</title>
+ 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        width: 60%;
+        min-width: 400px;
+        margin-left: auto;
+        margin-right:auto;
+        background-color: rgb(184, 248, 250);
+        
+        display:unsed ;
+        gap: 10px;
+        grid-template-columns: 55% 45%;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "nav nav"
+          "imagen1 imagen1"
+          "parrafo1 parrafo1"
+          "parrafo2 parrafo2"
+          "imagen2 imagen2"
+          "tabla1 tabla1 "
+           "tabla2 tabla2 ";
+   
+
+      }
+      #nav {
+        grid-area: nav;
+        width:100%
+      }
+      #imagen1 {
+        grid-area: imagen1;
+        width: 100%;
+      
+      }
+      #parrafo1 {
+        grid-area: parrafo1;
+      }
+      
+      #parrafo2 {
+        grid-area: parrafo2;
+      }
+      
+      #imagen2 {
+        grid-area:imagen2;
+        width: 100%;
+      }
+  
+      #tabla1 {
+        grid-area: tabla1;
+        width: 100%;
+      }
+      
+      #tabla2 {
+        grid-area: tabla2;
+         width: 100%;
+      }
+      
+    </style>
+  </head>
+  
+<body>
+   <div id="parrafo1">
+      <style>
+        h1 {
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+      </style>
+      
+      <img src= "https://www.julianmarquina.es/wp-content/uploads/Cu%C3%A1les-son-las-mejores-universidades-para-estudiar-Library-Information-Management.jpg" class="rounded mx-auto d-block" alt="uni" id="imagen1" />
+      <h1>Carreras Universitarias</h1>
+      <p>
+        Existen más de mil <b>carreras universitarias</b> en el mundo, estas representan los estudios que un individuo desarrolla en una universidad con el objetivo de alcanzar un grado académico. Se pueden catalogar en diferentes 
+        <a href=https://www.emagister.com.co/carreras-universitarias/>temáticas</a>
+        que a su vez se subdividen en varias 
+        <a href=https://www.emagister.com.co/carreras-universitarias/web/sitemap>carreras</a>
+        profesionales.
+      </p>
+      <p>
+        El Estado, a través del Ministerio de Educación o de un organismo similar, se encarga de oficializar los títulos que se otorgan cuando alguien completa una carrera universitaria. De igual forma, el Estado lleva un registro de las entidades que son autorizadas a brindar el servicio educativo.
+        Las carreras universitarias pueden cursarse en universidades públicas o privadas. Por lo general estas carreras están estructuradas para que puedan completarse en cuatro o cinco años, aunque ese tiempo puede variar según el alumno. 
+      </p>
+    </div>
+    
+    <div id="parrafo2">
+      <style>
+        h2 {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+      </style>
+      <h2>Beneficios de cursar una carrera universitaria</h2>
+      <ol>
+        <li>Se cree que es una manera de conseguir tener un mejor futuro. Y es que son mayores las posibilidades de lograr un empleo deseado y de mayor cualificación.</li>
+        <li>De la misma manera, otra ventaja es la de lograr disponer del desarrollo de mayores habilidades en un área concreta.</li>
+        <li>También es necesario saber que contar con una carrera universitaria supone un gran enriquecimiento a nivel cultural y personal.</li>
+        <li>Por supuesto, no hay que pasar por alto que se considera que estudiar esa formación es una manera de conseguir contar con una mayor autoestima y una mayor seguridad en uno mismo. Y es que ir superando los distintos cursos supone aumentar la confianza que se tiene en sí mismo.</li>
+       </ol>
+       <img src="https://image.freepik.com/vector-gratis/chicas-chicos-estudiantes-universidad-profesional_24640-41818.jpg" class="rounded mx-auto d-block" alt="universidad" id="imagen2" />
+       <p>Para poder tener una visión general de la calides de educación en diferentes países y de las mejores universidades del mundo se hicieron las siguientes tablas:</p>
+    </div>
+ 
+      <table id="tabla1" class="table table-bordered table-sm">
+      <thead class="thead-dark">
+        <tr>
+          <th>NÚMERO</th>
+          <th>PAÍS</th>
+          <th>CUALIDADES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <style>
+          tr {
+            background-color: rgb(152, 171, 175);
+          }
+        </style>
+        <tr>
+          <th>1.</th>
+          <td>Corea del Sur</td>
+          <td>El campo en el que los alumnos del país asiático obtienen más puntuación en el informe PISA es matemáticas, además la enseñanza en Core del Sur es obligatoria y gratuita desde los 7 hasta los 15 años.</td>
+        </tr>
+        <tr>
+          <th>2.</th>
+          <td>Japón</td>
+          <td>Los alumnos japoneses presentan unos niveles extraordinarios en matemáticas, lectura y ciencia. La estructura educativa del país hace especial hincapié en la tecnología y la innovación. </td>
+        </tr>
+        <tr>
+          <th>3.</th>
+          <td>Finlandia</td>
+          <td>La educación finlandesa es bien conocida en todo el mundo por su gran eficacia. Los alumnos destacan en ciencias, lectura y matemásticas en el informe PISA. Los profesores son profesionales que cuentan con una gran reputación en la sociedad.</td>
+        </tr>
+        <tr>
+          <th>4.</th>
+          <td>Canadá</td>
+          <td>Los alumnos destacan en matemáticas, lectura y ciencia. El sistema educativo es gratuito y obligatorio hasta los 16 años. No existe un sistema nacional como tal, sino que cada provincia tiene el suyo propio.</td>
+        </tr>
+        <tr>
+          <th>5.</th>
+          <td>Estonia</td>
+          <td>Los alumnos obtienen unas puntuaciones muy altas en ciencias. Desde los 7 años de edad la educación es obligatoria hasta los 17. El sistema educativo se basa en promover el aprendizaje activo.</td>
+        </tr>
+          </tbody>
+    </table> 
+    
+    <table id="tabla2" class="table table-bordered table-sm">
+      <thead class="thead-dark">
+        <tr>
+          <th>#</th>
+          <th>UNIVERSIDAD</th>
+          <th>UBICACIÓN</th>
+        </tr>
+      </thead>
+      <tbody>
+        <style>
+          tr {
+            background-color: rgb(152, 171, 175);
+          }
+        </style>
+        <tr>
+          <th>1.</th>
+          <td>Massachusetts Institute of Technology (MIT)</td>
+          <td>Massachusetts, Estados Unidos</td>
+        </tr>
+        <tr>
+          <th>2.</th>
+          <td>Stanford University</td>
+          <td>California, Estados Unidos</td>
+        </tr>
+        <tr>
+          <th>3.</th>
+          <td>Harvard University</td>
+          <td>Massachusetts, Estados Unidos</td>
+        </tr>
+        <tr>
+          <th>4.</th>
+          <td>University of Oxford</td>
+          <td>Oxford, Inglaterra, Reino Unido</td>
+        </tr>
+        <tr>
+          <th>5.</th>
+          <td>California Institute of Technology (Caltech)</td>
+          <td>	Pasadena (California), Estados Unidos</td>
+        </tr>
+      </tbody>
+    </table>
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    
+      <a class="navbar-brand" href="CarrerasUniversitarias.html">CARRERAS UNIVERSITARIAS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="dropdown-menu" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="derecho.html">Derecho</a>
+          <a class="nav-link" href="medicina.html">Medicina</a>
+          <a class="nav-link" href="sociología.html">Sociología</a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

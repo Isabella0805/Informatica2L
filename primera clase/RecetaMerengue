@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html style="font-family:courier;">
+<heat style="text-align:center"> 
+ <h1 style="color:orange ; font-size:200%";>MERENGUES CASEROS</h1>
+</heat>
+
+<boddy>
+ <p> En esta receta te enseñamos de forma detallada cómo hacer merengues caseros para que pases de preguntarte cómo hacer merengues a disfrutar de ellos en un dos por tres.</p>
+
+ <h2 style="color:orange ; font-size:150%";>INGREDIENTES</h2>
+  <ul> 
+   <li>2 claras de huevo</li>
+   <li>100g de azucar glas</li>
+  </ul>
+
+ <h3 style="color:orange ; font-size:150%";>MATERIALES</h3>
+  <ul> 
+   <li>batidor eléctrico (de mano o robot)</li>
+   <li>manga pastelera</li>
+   <li>papel sulfurizado</li>
+   <li>espátula</li>
+  </ul>
+
+ <h4 style="color:orange ; font-size:150%";>PASOS A SEGUIR</h4>
+  <ol>
+   <li>Batir las claras a velocidad media + la mitad del azúcar.</li>
+   <li>Cuando la batidora empiece a marcar su forma, añadiremos la otra mitad.</li>
+   <li>Batir hasta que las claras formen picos cuando levantes la varilla.</li>
+    <p><a href="https://www.recetasderechupete.com/como-montar-claras-a-punto-de-nieve-consejos-y-trucos/27649/" target="_blank">claras a punto de nieve</a></p>
+   <img src=https://www.pequerecetas.com/wp-content/uploads/2016/02/montar-claras-de-huevo-a-punto-de-nieve-550x550.jpg alt="claras a punto de nieve"  style="width: 60% ; height: 350px";>
+   <li>Con ayuda de una manga pastelera, forma tus merengues sobre papel sulfurizado, encima de una placa de horno.</li>
+   <li>Hornear a 120°C durante 1h15min. Luego, apaga el horno y deja secar los merengues en el interior durante un par de horas.</li>
+   <img src="https://www.petitchef.es/imgupl/recipe/como-hacer-merengue--454975p706052.jpg" style="width:70% ; height: 300px" alt="resultado final";>
+  </ol>
+  
+  <p style="text-align:center ; font-weight: bold ; margin-top: 40px">¡Y listo!</p>
+
+ <h5 style="color:orange ; margin-bottom: 20px ; font-size:150%";>OBSERVACIONES</h5>
+  <ul style="background-color:LightGray; border: 2px solid gray;
+  padding: 30px;"> 
+   <li>Para un merengue perfecto, usa las claras a temperatura ambiente. Para ello, saca los huevos del frigorífico un par de horas antes de hacer la receta. Otra opción para que tu merengue tenga aún más sabor, separa las claras de las yemas, y reserva las claras en una caja hermética de 1 a 2 días fuera del frigorífico. Notarás la diferencia!</li>
+   <li>Un buen merengue se monta lentamente, no se trata de poner la batidora eléctrica al máximo desde el principio. Cuando el merengue esté bien montado, podemos batirlo a toda velocidad. Montar las claras para un merengue te llevará unos 15 minutos.</li>
+   <li>Puedes reemplazar la manga pastelera por una bolsa de congelación y cortar la punta de una esquina.</li>
+   <li>En esta receta hemos usado una boquilla de estrella cerrada de 8 mm. Pero es cuestión de gustos y preferencias, también quedan muy bonitos con la Ateco 825 o la wilton 6B.</li>
+  </ul>
+    
+ <h6 style="color:orange ; font-size:150% ;margin-bottom: 20px";>DECORACIÓN</h6>
+  <p style="font-weight:900">Eres totalmente libre de añadirle lo que quieras a tu merengue para que se vea mas bonito</p>
+  <p style="font-weight:900"> Algunas Ideas: puedes añadirle chispitas de colores o puedes agregarle un poco de colorante comestible a los ingrdientes antes de mezclarlos en el batidor</p>
+  
+ <h7 style="font-size:150% ; color:orange";>INFORMACIÓN</h7> 
+  <table style="border:2px solid SlateBlue; margin-top: 30px; padding: 35px;">
+   <tr style="font-family:verdana;"> 
+    <th style="text-align:center; border:4px solid Violet;font-size:80%">#Porciones</th>
+    <th style="text-align:center; border:4px solid Violet;font-size:80%">Tiempo de preparación</th>
+    <th style=" text-align:center;border:4px solid Violet;font-size:80%">Tiempo de cocción</th>
+    <th style="text-align:center; border:4px solid Violet;font-size:80%">Dificultad</th>
+    <th style="text-align:center; border:4px solid Violet;font-size:80%">Calorías por unidad</th>
+   </tr>
+   <tr style="font-family:verdana;">
+    <td style="text-align:left;border:4px solid Violet;font-size:80%">20porciones<td/>
+    <td style="text-align:left;border:4px solid Violet;font-size:80%">15min</td>
+    <td style="text-align:left;border:4px solid Violet;font-size:80%">75min</td>
+    <td style="text-align:left;border:4px solid Violet;font-size:80%">media</td>
+    <td style="text-align:left;border:4px solid Violet;font-size:80%">43Kcal</td>
+   </tr>
+  </table>
+</boddy> 
