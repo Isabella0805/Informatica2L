@@ -2,29 +2,29 @@ let carro1 =
     {Marca: "audi", 
     Modelo: "TT Ambition 2.0 TFSi",
     Year:2020,
-    Kilometraje:20.000,
-    Kpg: "9,9km/l"}
+    Kilometraje:20000,
+    Kpg: 37}
 
 let carro2 =
     {Marca: "Ford",
     Modelo: "Ford Mustang Fastback GT 5.0 V8 450 CV",
     Year:2019,
-    Kilometraje:19.000,
-    Kpg: "5,0 km/l"}
+    Kilometraje:19000,
+    Kpg: 19}
 
 let carro3 =
     {Marca: "Alfa Romeo",
     Modelo: "Alfa Romeo Giulietta",
     Year:2010,
-    Kilometraje:22.000,
-    Kpg: "4,7 km/l"}
+    Kilometraje:22000,
+    Kpg: 18}
 
 let carro4 =
     {Marca: "Chevrolet",
     Modelo: "Spark GT Active",
     Year:2019,
-    Kilometraje:17.000,
-    Kpg: "70,0 km/ga"}
+    Kilometraje:17000,
+    Kpg: 50}
 
 let carros = [carro1, carro2, carro3, carro4]
 
