@@ -1,9 +1,9 @@
-let contador = 
+let contador = 1
 if(contador==null)
 { 
-let contador = 0
 localStorage.setItem("contador", JSON.stringify(contador))
 console.log("NO hay contador")
+alert("ha ingresado 1 vez")
 }
 else
 {
@@ -12,4 +12,4 @@ else
     localStorage.setItem("contador", JSON.stringify(contador))
     console.log("SI hay contador")
 }
-alert(`ha ingreesado ${contador} veces`);
+alert(`ha ingresado ${contador} veces`);
