@@ -1,4 +1,4 @@
-let contador
+let contador = 
 if(contador==null)
 { 
 let contador = 0
