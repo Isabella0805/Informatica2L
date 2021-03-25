@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrey2</title>
+
+    <style>
+        body
+        {color:rgb(74, 171, 196);
+        background-color:rgb(121, 224, 231);}
+
+        form
+        {text-align: center;
+        color:rgb(255, 255, 255);
+        background-color:rgb(10, 119, 161);}
+
+        table, th, td 
+        {
+            padding: 5px;
+            widows:inherit;
+            width:unset;
+            min-width: 200px;
+            gap: 400px;
+            margin-left: auto;
+            margin-right:auto;
+            border: 1px solid #12aa33;
+            border-collapse: collapse;
+            text-align: center;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #025013;
+            background-color:  #a9eba6;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" id="formularioAdd">
+        Materia
+        <input type="text" name="materia">
+        Descripción
+        <input type="textarea" name="desc">
+        Fecha de entrega
+        <input type="date" name="fecha">
+        <input type="submit">
+    </form>
+    <table id="trabajo"></table>
+    <script src="tareas2.js"></script> 
+</body>
+</html>
