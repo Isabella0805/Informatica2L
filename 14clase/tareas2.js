@@ -10,6 +10,7 @@ function llenarTabla()
   tabla.innerHTML = contenidoTabla; 
 }
 
+localStorage.setItem("tareas", JSON.stringify(tareas))
 let form = document.querySelector("#formularioAdd");
 function addNota() 
 {
@@ -22,7 +23,7 @@ function addNota()
 
     tareas.push(tareaN);
     llenarTabla();
-    localStorage.setItem("tareas", JSON.stringifuly(tareas))
+    localStorage.setItem("tareas", JSON.stringify(tareas))
 }
 
 form.onsubmit = addNota();
