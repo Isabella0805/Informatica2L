@@ -1,8 +1,8 @@
 let lista = 
 [   
-    {Materia:"Informática", Descripción:"Hacer una tarea de informática que tenga todas las tareas.",Fecha:"2021-02-20"},
-    {Materia:"Física", Descripción:"Hacer los ejercicios pares del eserciziario cobre el movimiento parabólico",Fecha:"2021-05-22"},
-    {Materia:"Química", Descripción:"Taller de Reacciones Químicas",Fecha:"2021-03-12"},
+    {Materia:"Informática", Descripción:"Hacer una tarea de informática que tenga todas las tareas.",Fecha:"20-02-2021"},
+    {Materia:"Física", Descripción:"Hacer los ejercicios pares del eserciziario cobre el movimiento parabólico",Fecha:"26-05-2021"},
+    {Materia:"Química", Descripción:"Taller de Reacciones Químicas",Fecha:"12-03-2021"},
 ]
      
 let tabla = document.querySelector('#listaTareas')
