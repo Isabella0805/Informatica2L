@@ -49,39 +49,39 @@ filas2(380)
 
 //peones
 
-function peones(x,y,color)
+function peones(x,y,t,color)
 {
 ctx.fillStyle = color
 ctx.strokeStyle = "black"
-ctx.fillRect(x,y,25,10);
+ctx.fillRect(x,y,2.5*t,t);
 ctx.fillStyle = color
 ctx.strokeStyle = "black"
-ctx.fillRect(x+5,y-5,15,10);
+ctx.fillRect(x+0.5*t,y-0.5*t,1.5*t,0.5*t);
 ctx.fillStyle = color
 ctx.strokeStyle = color
 ctx.beginPath();
-ctx.arc(x+12.4, y-18, 10, -Math.PI, Math.PI)
+ctx.arc(x+1.25*t, y-1.8*t, t, -Math.PI, Math.PI)
 ctx.stroke()
 ctx.fill()
 ctx.fillStyle = color
 ctx.strokeStyle = "black"
-ctx.fillRect(x+7.5,y-10,10,10);
+ctx.fillRect(x+0.75*t,y-t,t,0.5*t);
 }
 
-peones(42,115,"midnightblue")
-peones(92,115,"midnightblue")
-peones(142,115,"midnightblue")
-peones(192,115,"midnightblue")
-peones(242,115,"midnightblue")
-peones(292,115,"midnightblue")
-peones(342,115,"midnightblue")
-peones(392,115,"midnightblue")
+peones(42,115,8,"midnightblue")
+peones(92,115,10,"midnightblue")
+peones(142,115,8,"midnightblue")
+peones(192,115,12,"midnightblue")
+peones(242,115,12,"midnightblue")
+peones(292,115,8,"midnightblue")
+peones(342,115,10,"midnightblue")
+peones(392,115,8,"midnightblue")
 
-peones(42,365,"lightsteelblue")
-peones(92,365,"lightsteelblue")
-peones(142,365,"lightsteelblue")
-peones(192,365,"lightsteelblue")
-peones(242,365,"lightsteelblue")
-peones(292,365,"lightsteelblue")
-peones(342,365,"lightsteelblue")
-peones(392,365,"lightsteelblue")
+peones(42,365,12,"lightsteelblue")
+peones(92,365,10,"lightsteelblue")
+peones(142,365,12,"lightsteelblue")
+peones(192,365,8,"lightsteelblue")
+peones(242,365,8,"lightsteelblue")
+peones(292,365,12,"lightsteelblue")
+peones(342,365,10,"lightsteelblue")
+peones(392,365,12,"lightsteelblue")
