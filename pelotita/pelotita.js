@@ -1,0 +1,97 @@
+let canvas = document.querySelector("#pelotitaAnimada")
+let ctx = canvas.getContext("2d")
+
+function dibujarPelotita(xC, yC, r, color)
+{
+    ctx.beginPath();
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.arc(xC, yC, r, 0, 2*Math.PI);
+    ctx.stroke();
+    ctx.fill();
+    
+}
+
+let x = 200;
+let y = 5;
+
+let color = "slateblue";
+let r = 10;
+
+let vX = 20;
+let dT = 30;
+
+function moverYDibujar()
+{
+    ctx.clearRect(0,0, 600, 400);
+    let dX = (dT/1000) * vX
+    y = y + dX;
+    dibujarPelotita(x, y, r, color);
+}
+
+function arrancarOParar()
+{
+    if (vX > 0){
+        vX = 0;
+    }
+    else{
+        vX = 10;
+    }
+}
+ 
+function aumentarTamaño()
+{
+    if (r >= 10){
+        r = r + 1;
+    }
+    else{
+        r = 10
+    }
+} 
+ 
+function disminuirTamaño()
+{
+    if (r <= 10){
+        r = r - 1;
+    }
+    else{
+        r = 10
+    }
+} 
+
+function cambiarColor()
+{
+    if(color == "slateblue"){
+      color = "yellowgreen"
+    }
+    else color = "slateblue"
+}
+
+window.setInterval(moverYDibujar, dT);
+
+window.onkeyup = function(event)
+{
+    if(event.code == "Space"){
+        arrancarOParar();   
+    }
+    if(event.code == "BracketRight"){
+        aumentarTamaño();   
+    }
+    if(event.code == "Slash"){
+        disminuirTamaño();   
+    }
+}
+
+window.onclick = function(event)
+{  
+    {
+        let Xm = event.offsetX
+        let Ym = event.offsetY
+        distancia = Math.sqrt (Math.pow (Xm-x,2) + Math.pow (Ym-y,2))
+            if(distancia <= r)
+            {
+                cambiarColor();   
+            }
+            else vX = -vX 
+    }
+}
