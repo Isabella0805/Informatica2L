@@ -1,7 +1,5 @@
-let canvas = document.querySelector("#pelotitaAnimada")
-let ctx = canvas.getContext("2d")
-
-function dibujarPelotita(xC, yC, r, color)
+//PELOTA 
+//function dibujarPelotita(xC, yC, r, color)
 {
     ctx.beginPath();
     ctx.strokeStyle = color;
@@ -12,16 +10,16 @@ function dibujarPelotita(xC, yC, r, color)
     
 }
 
-let x = 200;
-let y = 5;
+//let x = 200;
+//let y = 5;
 
-let color = "slateblue";
-let r = 10;
+//let color = "slateblue";
+//let r = 10;
 
-let vX = 20;
-let dT = 30;
+//let vX = 20;
+//let dT = 30;
 
-function moverYDibujar()
+//function moverYDibujar()
 {
     ctx.clearRect(0,0, 600, 400);
     let dX = (dT/1000) * vX
@@ -29,7 +27,7 @@ function moverYDibujar()
     dibujarPelotita(x, y, r, color);
 }
 
-function arrancarOParar()
+//function arrancarOParar()
 {
     if (vX > 0){
         vX = 0;
@@ -39,7 +37,7 @@ function arrancarOParar()
     }
 }
  
-function aumentarTamaño()
+//function aumentarTamaño()
 {
     if (r >= 10){
         r = r + 1;
@@ -49,7 +47,7 @@ function aumentarTamaño()
     }
 } 
  
-function disminuirTamaño()
+//function disminuirTamaño()
 {
     if (r <= 10){
         r = r - 1;
@@ -59,7 +57,7 @@ function disminuirTamaño()
     }
 } 
 
-function cambiarColor()
+//function cambiarColor()
 {
     if(color == "slateblue"){
       color = "yellowgreen"
@@ -67,9 +65,9 @@ function cambiarColor()
     else color = "slateblue"
 }
 
-window.setInterval(moverYDibujar, dT);
+//window.setInterval(moverYDibujar, dT);
 
-window.onkeyup = function(event)
+//window.onkeyup = function(event)
 {
     if(event.code == "Space"){
         arrancarOParar();   
@@ -82,7 +80,7 @@ window.onkeyup = function(event)
     }
 }
 
-window.onclick = function(event)
+//window.onclick = function(event)
 {  
     {
         let Xm = event.offsetX
@@ -95,3 +93,4 @@ window.onclick = function(event)
             else vX = -vX 
     }
 }
+
