@@ -74,30 +74,56 @@ let vY9 = 900;
 
 let score = 0;
 
+dibujarTodo() 
 
-dibujarEntrada()
-dibujarPelota(xC, yC, r)
+//DIBUJAR TODO 
+function dibujarTodo()
+{
+    dibujarEntrada()
+    dibujarPelota(xC, yC, r)
+    
+    dibujarNave1(xN1, yN1, l)
+    dibujarNave2(xN2, yN2, l)
+    dibujarNave3(xN3, yN3, l)
+    dibujarNave4(xN4, yN4, l)
+    dibujarNave5(xN5, yN5, l)
+    dibujarNave6(xN6, yN6, l)
+    dibujarNave7(xN7, yN7, l)
+    dibujarNave8(xN8, yN8, l)
+    dibujarNave9(xN9, yN9, l)
+    
+    dibujarMoneda1(xM1,yM1,rM1)
+    dibujarMoneda2(xM2,yM2,rM2)
+    dibujarMoneda3(xM3,yM3,rM3)
+    dibujarMoneda4(xM4,yM4,rM4)
+    dibujarMoneda5(xM5,yM5,rM5)
+    dibujarMoneda6(xM6,yM6,rM6)
+    
+    DibujarLaberinto(color)
+    dibujarSalida()
+    dibujarPuntaje()
+}
 
-dibujarNave1(xN1, yN1, l)
-dibujarNave2(xN2, yN2, l)
-dibujarNave3(xN3, yN3, l)
-dibujarNave4(xN4, yN4, l)
-dibujarNave5(xN5, yN5, l)
-dibujarNave6(xN6, yN6, l)
-dibujarNave7(xN7, yN7, l)
-dibujarNave8(xN8, yN8, l)
-dibujarNave9(xN9, yN9, l)
+//MOVER TODO
+function moverTodo()
+{
+    MoverAbajo()
+    MoverArriba()
+    MoverDerecha()
+    MoverIzquierda()
+    AumentarTamaño()
+    DisminuirTamaño()
+    MoverNaves()
+    EncuentroMonedas()
+}
 
-dibujarMoneda1(xM1,yM1,rM1)
-dibujarMoneda2(xM2,yM2,rM2)
-dibujarMoneda3(xM3,yM3,rM3)
-dibujarMoneda4(xM4,yM4,rM4)
-dibujarMoneda5(xM5,yM5,rM5)
-dibujarMoneda6(xM6,yM6,rM6)
-
-DibujarLaberinto(color)
-dibujarSalida()
-dibujarPuntaje()
+//MOVER Y DIBUJAR 
+function moverYdibujarTodo()
+{
+    dibujarTodo()
+    moverTodo()
+}
+window.setInterval(moverYdibujarTodo, dT)
 
 //MOVIMIENTO PELOTA
 function MoverAbajo()
@@ -469,7 +495,6 @@ function MoverNaves()
     moverNave8()
     moverNave9()
 }
-window.setInterval(MoverNaves, dT)
 
 //ENCUENTRO PyM
 function EncuentroMoneda1()
@@ -546,9 +571,6 @@ function EncuentroMonedas()
     EncuentroMoneda5()
     EncuentroMoneda6() 
 }
-window.setInterval(EncuentroMonedas,dT)
-
-
 
 //PUNTAJE
 function dibujarPuntaje() 
