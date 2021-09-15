@@ -74,8 +74,6 @@ let vY9 = 900;
 
 let score = 0;
 
-dibujarTodo() 
-
 //DIBUJAR TODO 
 function dibujarTodo()
 {
